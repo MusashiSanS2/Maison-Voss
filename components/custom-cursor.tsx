@@ -80,7 +80,7 @@ export function CustomCursor() {
 
   // --- Per-state visual config ---
   // product: dark ring + dark dot for visibility on white/light fabrics
-  // map: crosshair-style, dark with high contrast
+  // map: crosshair-style, white with high contrast for dark map background
   // link: gold ring expanded
   // default: gold ring small
 
@@ -89,17 +89,17 @@ export function CustomCursor() {
   const isLink = cursorState === 'link'
 
   const ringSize = isMap ? 40 : isProduct ? 52 : isLink ? 36 : 28
-  const ringColor = isProduct ? '#1a1a1a' : isMap ? '#0a0a0a' : '#c9b99a'
-  const ringOpacity = isMap ? 0.85 : isProduct ? 0.75 : isLink ? 0.5 : 0.35
+  const ringColor = isProduct ? '#1a1a1a' : isMap ? '#ffffff' : '#c9b99a'
+  const ringOpacity = isMap ? 0.9 : isProduct ? 0.75 : isLink ? 0.5 : 0.35
   const ringBorderWidth = isMap ? 1.5 : 1
 
-  const dotColor = isProduct ? '#0a0a0a' : isMap ? '#0a0a0a' : '#c9b99a'
+  const dotColor = isProduct ? '#0a0a0a' : isMap ? '#ffffff' : '#c9b99a'
   const dotSize = isProduct ? 6 : isMap ? 4 : 6
   const dotOpacity = isVisible ? (isProduct || isMap ? 1 : 0.9) : 0
 
   // Crosshair lines (only for map)
   const crosshairLength = 10
-  const crosshairColor = '#0a0a0a'
+  const crosshairColor = '#ffffff'
 
   return (
     <div className="hidden md:block">

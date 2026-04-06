@@ -4,7 +4,7 @@
 
 Este é um portfólio de demonstração para uma alfaiataria masculina de alto padrão, construído com tecnologias modernas para showcases de desenvolvimento web.
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 - **Next.js 16** — React com renderização híbrida
 - **TypeScript** — Tipagem segura
@@ -13,7 +13,7 @@ Este é um portfólio de demonstração para uma alfaiataria masculina de alto p
 - **Leaflet.js** — Mapas interativos
 - **Radix UI** — Componentes acessíveis
 
-## 🎨 Destaques
+##  Destaques
 
 - Design dark theme luxuoso com paleta dourada
 - Cursor customizado com múltiplos estados (padrão, links, produtos, mapa)
@@ -22,7 +22,7 @@ Este é um portfólio de demonstração para uma alfaiataria masculina de alto p
 - Mapa interativo com marcador fixo (Centro de Curitiba)
 - Formulário de contato com feedback visual
 
-## 📦 Instalação
+##  Instalação
 
 ```bash
 # Instalar dependências
@@ -39,7 +39,7 @@ Abra [http://localhost:3000](http://localhost:3000) para visualizar.
 
 ---
 
-## ⚠️ Aviso de Direitos Autorais
+##  Aviso de Direitos Autorais
 
 **© 2025 Lemos Dev — Todos os direitos reservados.**
 
@@ -47,7 +47,7 @@ Este projeto é **exclusivamente demonstrativo**. A cópia, reprodução, distri
 
 ---
 
-*Desenvolvido com ❤️ por Lemos Dev*
+*Desenvolvido por Lemos Dev*
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
